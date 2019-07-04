@@ -36,7 +36,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.3'
 
   spec.add_dependency 'ast', '>= 2.3.0'
-  spec.add_dependency 'parser', '= 2.5.3.0'
+  spec.add_dependency 'parser', '~> 2.5'
 
   spec.add_development_dependency 'sourcemap', '~> 0.1.0'
   spec.add_development_dependency 'rake', '~> 10.0'
@@ -48,5 +48,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'selenium-webdriver'
   spec.add_development_dependency 'benchmark-ips'
   spec.add_development_dependency 'sinatra'
-  spec.add_development_dependency 'rubocop', '= 0.53.0'
+  spec.add_development_dependency 'rubocop', '>= 0.53.0'
 end
